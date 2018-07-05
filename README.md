@@ -177,7 +177,7 @@ Because people kept joking about me writing a library called "y_tho", so I did.
 
 I'm slightly apprehensive about even giving you the link to this, but here:
 
-
+https://github.com/Y-Less/y_tho
 
 It is also available through sampctl (another tool you should get) here:
 
