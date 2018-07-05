@@ -151,12 +151,12 @@ echo "The answer is %d", 42
 
 ### comparisons
 
-`-lt` - Less than.
-`-le` - Less than or equal to.
-`-eq` - Equal.
-`-ne` - Not equal.
-`-ge` - Greater than or equal to.
-`-gt` - Greater than.
+* `-lt` - Less than.
+* `-le` - Less than or equal to.
+* `-eq` - Equal.
+* `-ne` - Not equal.
+* `-ge` - Greater than or equal to.
+* `-gt` - Greater than.
 
 ### Semi-colons
 
