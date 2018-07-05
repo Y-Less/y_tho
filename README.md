@@ -96,6 +96,8 @@ do
 done
 ```
 
+Note that this syntax will declare `j` as `new`.
+
 ### for (arithmetic)
 
 ```pawn
