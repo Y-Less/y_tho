@@ -69,8 +69,6 @@ case 10)
 esac
 ```
 
-Note that this doesn't QUITE match the default base `case` syntax for technical reasons :(.
-
 ## All syntax
 
 ### if/elif/else
@@ -140,6 +138,8 @@ default)
 	echo i is %d, i
 esac
 ```
+
+Note that this doesn't QUITE match the bash `case` syntax for technical reasons :(.
 
 ### echo
 
