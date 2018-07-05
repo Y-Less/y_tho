@@ -17,7 +17,7 @@ for (new i = 0; i != 10; ++i)
 
 Now:
 
-```bash
+```pawn
 for i in {0 .. 10}
 do
 	echo i is %d, i
@@ -35,7 +35,7 @@ if (playerid < 7)
 
 Now:
 
-```bash
+```pawn
 if [ playerid -lt 7 ]
 then
 	SetPlayerPos playerid, 0.0, 0.0, 4.0
@@ -60,7 +60,7 @@ switch (boss)
 
 Now:
 
-```bash
+```pawn
 switch boss of
 case 5)
 	printf("boss is 5");
@@ -75,7 +75,7 @@ Note that this doesn't QUITE match the default base `case` syntax for technical 
 
 ### if/elif/else
 
-```bash
+```pawn
 if [ i -gt 5 ]
 then
 	echo "i is %d", i
@@ -89,7 +89,7 @@ fi
 
 ### for (range)
 
-```bash
+```pawn
 for j in {7 .. 11}
 do
 	echo j is %d, j
@@ -98,7 +98,7 @@ done
 
 ### for (arithmetic)
 
-```bash
+```pawn
 for ((k = 10; k != 100; ++k))
 do
 	echo k is %d, k
@@ -107,7 +107,7 @@ done
 
 ### while
 
-```bash
+```pawn
 while [ i -lt 10 ]
 do
 	echo "i is %d", i
@@ -117,7 +117,7 @@ done
 
 ### until (!while)
 
-```bash
+```pawn
 until [ i -eq 15 ]
 do
 	echo "i is %d", i
@@ -128,7 +128,7 @@ done
 
 ### switch
 
-```bash
+```pawn
 switch i of
 case 5)
 	echo i is 5
@@ -141,7 +141,7 @@ esac
 
 ### echo
 
-```bash
+```pawn
 echo Hello world
 echo "How are you?"
 echo "The answer is %d", 42
@@ -151,7 +151,7 @@ echo "The answer is %d", 42
 
 These are now optional:
 
-```bash
+```pawn
 SetPlayerPos(playerid, 0.0, 0.0, 4.0)
 ```
 
@@ -159,7 +159,7 @@ SetPlayerPos(playerid, 0.0, 0.0, 4.0)
 
 If you are using the new (community) compiler (which you really should be - it is available here: https://github.com/pawn-lang/compiler/releases), brackets are also optional:
 
-```bash
+```pawn
 SetPlayerPos playerid, 0.0, 0.0, 4.0
 ```
 
@@ -179,7 +179,7 @@ I'm slightly apprehensive about even giving you the link to this, but here:
 
 https://github.com/Y-Less/y_tho
 
-It is also available through sampctl (another tool you should get) here:
+It is also available through sampctl (another tool you should get from here: http://sampctl.com/) here:
 
 ```bash
 sampctl package install Y-Less/y_tho
