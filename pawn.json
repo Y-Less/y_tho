@@ -1,0 +1,10 @@
+{
+	"site": "",
+	"user": "Y-Less",
+	"repo": "y_tho",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dev_dependencies": [
+		"sampctl/samp-stdlib"
+	]
+}
