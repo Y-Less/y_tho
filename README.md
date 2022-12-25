@@ -190,7 +190,7 @@ I'm slightly apprehensive about even giving you the link to this, but here:
 
 https://github.com/Y-Less/y_tho
 
-It is also available through sampctl (another tool you should get from here: http://sampctl.com/) here:
+It is also available through sampctl (another tool you should get from here: https://github.com/Southclaws/sampctl) here:
 
 ```bash
 sampctl package install Y-Less/y_tho
